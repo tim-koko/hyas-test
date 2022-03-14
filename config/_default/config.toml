@@ -1,4 +1,4 @@
-baseurl = "https://hyas.netlify.app/"
+baseurl = "/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -6,9 +6,23 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-languageCode = "en-US"
+defaultContentLanguage = "de"
 paginate = 7
 rssLimit = 10
+
+[languages]
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 1
+    languageCode = "de-ch"
+    contentDir = "content/de"
+ 
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    languageCode = "en-us"
+    contentDir = "content/en"
+
 
 # add redirects/headers
 [outputs]

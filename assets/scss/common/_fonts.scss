@@ -1,11 +1,13 @@
-/* inter-500 - latin */
 @font-face {
-  font-family: Inter;
+  font-family: 'Roboto Light';
   font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src:
-    local("Inter"),
-    url("/fonts/vendor/inter/inter-v2-latin-500.woff2") format("woff2"),
-    url("/fonts/vendor/inter/inter-v2-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-weight: normal;
+  src: local('Roboto Light'), url('/fonts/vendor/roboto/Roboto-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Medium'), url('/fonts/vendor/roboto/Roboto-Medium.woff') format('woff');
 }
